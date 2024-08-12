@@ -1,0 +1,30 @@
+GET http://localhost:5000/api/v1/user2323
+
+###
+POST  http://localhost:5000/api/v1/auth/register
+Content-Type: application/json
+
+{
+    "email": "admin1@gmail.com",
+    "password": "12345678"
+}
+
+###
+POST  http://localhost:5000/api/v1/auth/login
+Content-Type: application/json
+
+{
+    "email": "admin2@gmail.com",
+    "password": "12345678"
+}
+###
+GET  http://localhost:5000/api/v1/user/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJhZG1pbjFAZ21haWwuY29tIiwiaWF0IjoxNzIzMTg3NDcxLCJleHAiOjE3MjMxODc0NzZ9.vPtZUwP3a50HdEmwoRQe4uS4vUeZOPIv5tHqomvRN1U
+
+###
+GET http://localhost:5000/api/v1/insert/
+Content-Type:  application/json
+
+###
+GET http://localhost:5000/api/v1/book/?available=1
+Content-Type:  application/json

@@ -1,0 +1,10 @@
+1. Để require api and validate bắn ra log nhanh và đúng nhất dùng joi. Setting nó riêng ở helper/joi_schema
+2. Để tạo res error nhanh tuân thủ theo cấu trúc thì dùng http error
+3. Sql dung sequelize để làm việc với db
+4. Tạo id unit băng uuid npm
+5. dùng thư viện dotenv để lấy data file config
+
+Để up load file cần tạo tài khoản trên cloudinary 
+import package  muter npm , multer storage npm cloudinary npm để sử dụng
+
+# để đọc file từ  data form bắt buộc phải có multer để convert hoặc có thể dùng package khác không thể đọc file trực tiếp được
